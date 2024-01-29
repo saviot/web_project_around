@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyek 5 | Around</title>
+
+    <link rel="stylesheet" href="./blocks/index.css" />
+  </head>
+  <body class="page">
+    <header class="page__header">
+      <img src="./images/logo.svg" alt="logo" />
+    </header>
+    <section class="profile">
+      <div class="profile__container">
+        <div class="profile__image">
+          <img src="./images/profile.jpeg" alt="profile" />
+        </div>
+        <div class="profile__info">
+          <div class="profile__name-container">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <img
+              class="profile__icon"
+              id="openModalBtn"
+              src="./images/icon_edit.svg"
+              alt="edit akun"
+            />
+          </div>
+          <p class="profile__title">Penjelajah</p>
+        </div>
+        <div class="profile__button">
+          <img src="./images/icon_add.svg" alt="tambah" />
+        </div>
+      </div>
+    </section>
+    <section class="card">
+      <div class="card__container">
+        <div class="card__item">
+          <div class="card__image">
+            <img src="./images/lembah_yosemite.jpeg" alt="Lembah Yosemite" />
+          </div>
+          <div class="card__info">
+            <h2 class="card__info-title">Lembah Yosemite</h2>
+            <button
+              id="svg1"
+              class="card__icon active"
+              onclick="toggleSVG('svg1', 'svg2')"
+            >
+              <img
+                src="./images/icon_love_non_active.svg"
+                alt="non active love"
+              />
+            </button>
+            <button
+              id="svg2"
+              class="card__icon-x"
+              onclick="toggleSVG('svg1', 'svg2')"
+            >
+              <img src="./images/icon_love_active.svg" alt="active love" />
+            </button>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="./images/danau_louise.jpeg" alt="Lembah Yosemite" />
+          </div>
+          <div class="card__info">
+            <h2 class="card__info-title">Danau Louise</h2>
+            <button
+              id="svg3"
+              class="card__icon active"
+              onclick="toggleSVG('svg3', 'svg4')"
+            >
+              <img
+                src="./images/icon_love_non_active.svg"
+                alt="non active love"
+              />
+            </button>
+            <button
+              id="svg4"
+              class="card__icon-x"
+              onclick="toggleSVG('svg3', 'svg4')"
+            >
+              <img src="./images/icon_love_active.svg" alt="active love" />
+            </button>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="./images/pengunungan_gundul.jpeg" alt="Lembah Yosemite" />
+          </div>
+          <div class="card__info">
+            <h2 class="card__info-title">Pegunungan Gundul</h2>
+            <button
+              id="svg5"
+              class="card__icon active"
+              onclick="toggleSVG('svg5', 'svg6')"
+            >
+              <img
+                src="./images/icon_love_non_active.svg"
+                alt="non active love"
+              />
+            </button>
+            <button
+              id="svg6"
+              class="card__icon-x"
+              onclick="toggleSVG('svg5', 'svg6')"
+            >
+              <img src="./images/icon_love_active.svg" alt="active love" />
+            </button>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="./images/latemar.jpeg" alt="Lembah Yosemite" />
+          </div>
+          <div class="card__info">
+            <h2 class="card__info-title">Latemar</h2>
+            <button
+              id="svg7"
+              class="card__icon active"
+              onclick="toggleSVG('svg7', 'svg8')"
+            >
+              <img
+                src="./images/icon_love_non_active.svg"
+                alt="non active love"
+              />
+            </button>
+            <button
+              id="svg8"
+              class="card__icon-x"
+              onclick="toggleSVG('svg7', 'svg8')"
+            >
+              <img src="./images/icon_love_active.svg" alt="active love" />
+            </button>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="./images/vanoise.jpeg" alt="Lembah Yosemite" />
+          </div>
+          <div class="card__info">
+            <h2 class="card__info-title">Vanoise Nationa...</h2>
+            <button
+              id="svg9"
+              class="card__icon active"
+              onclick="toggleSVG('svg9', 'svg10')"
+            >
+              <img
+                src="./images/icon_love_non_active.svg"
+                alt="non active love"
+              />
+            </button>
+            <button
+              id="svg10"
+              class="card__icon-x"
+              onclick="toggleSVG('svg9', 'svg10')"
+            >
+              <img src="./images/icon_love_active.svg" alt="active love" />
+            </button>
+          </div>
+        </div>
+        <div class="card__item">
+          <div class="card__image">
+            <img src="./images/lago.jpeg" alt="Lembah Yosemite" />
+          </div>
+          <div class="card__info">
+            <h2 class="card__info-title">Lago di Braies</h2>
+            <button
+              id="svg11"
+              class="card__icon active"
+              onclick="toggleSVG('svg11', 'svg12')"
+            >
+              <img
+                src="./images/icon_love_non_active.svg"
+                alt="non active love"
+              />
+            </button>
+            <button
+              id="svg12"
+              class="card__icon-x"
+              onclick="toggleSVG('svg11', 'svg12')"
+            >
+              <img src="./images/icon_love_active.svg" alt="active love" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__text">© 2021 Around The U.S.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <form class="modal__content">
+        <span class="modal__close">
+          <img src="./images/icon_close.svg" alt="close" />
+        </span>
+        <h3 class="modal__title">Edit profil</h3>
+        <div class="modal__input">
+          <input type="text" placeholder="Nama" name="nama" required />
+        </div>
+        <div class="modal__input">
+          <input type="text" placeholder="Title" name="title" required />
+        </div>
+        <button type="submit" class="modal__button">Simpan</button>
+      </form>
+    </div>
+
+    <script src="./blocks/script.js"></script>
+  </body>
+</html>
